@@ -66,9 +66,11 @@ def gizless
   puts RestClient.delete(url)
 end
 
-good_create_user
-puts "your existence is futile"
-gizless
+# good_create_user
+# puts "your existence is futile"
+# gizless
+
+city_create_user
 # url = Addressable::URI.new(
 #   scheme: 'http',
 #   host:   'localhost',
